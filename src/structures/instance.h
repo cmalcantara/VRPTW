@@ -4,18 +4,32 @@
 #include <cstddef>
 
 namespace instance {
-    struct solomon {
+    struct Solomon {
         size_t count;
-        struct customer {
-            int number;
-            float xcoord;
-            float ycoord;
-            float demand;
-            float ready_time;
-            float due_date;
+        struct Node {
+            int   id;
+            float cx;
+            float cy;
+        };
+        
+        struct Request {
+            int   id;
+            float start;
+            float end;
+            float quantity;
             float service_time;
         };
-        customer* customers;
+        
+        struct Vehicle { 
+            int start_node;
+            int end_node;
+            float capacity;
+            float max_time;
+        };
+        
+        Node*    nodes;
+        Request* requests;
+        Vehicle* fleet;
     };
 }
 
