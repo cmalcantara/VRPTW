@@ -3,15 +3,14 @@
 ## Solution Progress Track
 [ ] Chen, P., Golden, B., Wang, X., &amp; Wasil, E. (2017). A novel approach to solve the split delivery vehicle routing problem. International Transactions in Operational Research, 24(1-2), 27-41.
 	
-	[PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1111/itor.12250)
+####[PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1111/itor.12250)
 
-	[VRPH library](https://projects.coin-or.org/VRPH)
+####[VRPH library](https://projects.coin-or.org/VRPH)
 
 ###Steps
  + [x] Gather open source libarary VRPH (Groer, 2011)
  + [ ] Gather dataset used in paper
-
-  +"The 82 instances are divided into four sets."
+  +[ ]The 82 instances are divided into four sets."
    +[ ] Set 1 has 11 instances from TSPLIB by Belenguer et al. (2000).
     +[ ] "... a set of 11 instances from the TSPLIB (Reinelt 1991) ... These instances are publically available via http:www.uv.es/∼belengue/SDVRP/sdvrplib.html."
      + https://www.uv.es/~belengue/SDVRP/-> Forbidden access 403 error: "...Due to changes in the security policy of the UV, on March 25, 2014 ..."**
