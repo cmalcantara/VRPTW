@@ -7,9 +7,6 @@
 	[VRP.cpp](https://projects.coin-or.org/VRPH/browser/trunk/src/apps/vrp_rtr.cpp?rev=5)
 	[vrp-rtr](https://projects.coin-or.org/VRPH/browser/trunk/src/VRP.cpp?rev=5)
 
-	##Conclusion
-	>We propose a novel approach to solve the SDVRP. Each demand is split into several small pieces, and some dummy copies of the corresponding customer are generated. This idea allows us to transform the SDVRP into a CVRP and we can use any CVRP solver to solve this problem. Our computational experiments have demonstrated that VRPHAS improves the nonsplit solutions and, for the 82 benchmark instances, it is much faster than the state‐of‐the‐art algorithms and often produces solutions with comparable quality. In addition, VRPHAS is simple to implement, so that anyone with a free or commercial CVRP solver can apply it.
-	
 	##Steps
 	+ [x] Gather open source libarary VRPH (Groer, 2011)
 	+ [] Gather dataset used in paper
