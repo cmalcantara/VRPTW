@@ -9,7 +9,7 @@
 
  [vrp-rtr](https://projects.coin-or.org/VRPH/browser/trunk/src/VRP.cpp?rev=5)
 
- ###Steps
+###Steps
  + [x] Gather open source libarary VRPH (Groer, 2011)
  + [ ] Gather dataset used in paper
 
